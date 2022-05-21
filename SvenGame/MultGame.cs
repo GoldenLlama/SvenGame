@@ -8,7 +8,7 @@ namespace SvenGame
 {
     class MultGame
     {
-        public void Play2()
+        public void Play2() //má to strašnou zpětnou reakci, 3x zmáčkneš tlačítko aby se to pohlo
         {
             Ctverec hrac3 = new Ctverec(4, 4, ConsoleColor.Green);
             Ctverec hrac4 = new Ctverec(5, 10, ConsoleColor.Red);

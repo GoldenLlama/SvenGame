@@ -14,7 +14,8 @@ namespace SvenGame
             Console.WriteLine("Hard");
             Console.WriteLine("Medium");
             Console.WriteLine("Easy");
-
+            Console.WriteLine("Zpět");
+                
             string obtiznost = Console.ReadLine();
             if (obtiznost == "hard")
             {

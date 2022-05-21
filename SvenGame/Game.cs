@@ -44,15 +44,15 @@ namespace SvenGame
 
         //}
 
-        public void Play()
+        public void Play() //ty ses tady snažil o hru pro dva? :D
         {
             Ctverec hrac1 = new Ctverec(4,4,ConsoleColor.Green);
-            Ctverec hrac2 = new Ctverec(5,10,ConsoleColor.Red);
+            //Ctverec hrac2 = new Ctverec(5,10,ConsoleColor.Red);
 
             while (true)
             {
                 hrac1.Vykreslit();
-                hrac2.Vykreslit();
+                //hrac2.Vykreslit();
 
                 ConsoleKeyInfo myKey = Console.ReadKey();
                 Console.Clear();
@@ -73,6 +73,15 @@ namespace SvenGame
                 {
                     hrac1.Pohybnahoru();
                 }
+
+                //ConsoleKeyInfo Esc = Console.ReadKey(); asi to blbne kvůli tomuhle..
+                //Console.Clear();
+                //if (Esc.Key == ConsoleKey.Escape)
+                //{
+                //    Console.Clear();
+                //    Menu mojeMenu = new Menu();
+                //    mojeMenu.Run();
+                //}
 
             }
 
