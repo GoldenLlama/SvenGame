@@ -34,7 +34,7 @@ namespace SvenGame
             {
                 Console.WriteLine("Mějte se hezky, nashledanou");
                 Console.ReadKey();
-                return;
+                //return;
             }
             else if (odpoved == "2p")
             {

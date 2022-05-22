@@ -73,6 +73,12 @@ namespace SvenGame
                 {
                     hrac1.Pohybnahoru();
                 }
+                if (myKey.Key == ConsoleKey.Escape)
+                {
+                    Console.Clear();
+                    Menu mojeMenu = new Menu();
+                    mojeMenu.Run();
+                }
 
                 //ConsoleKeyInfo Esc = Console.ReadKey(); asi to blbne kvůli tomuhle..
                 //Console.Clear();
