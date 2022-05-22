@@ -18,6 +18,15 @@ namespace SvenGame
                 hrac3.Vykreslit();
                 hrac4.Vykreslit();
 
+                ConsoleKeyInfo myKey5 = Console.ReadKey();
+                Console.Clear();
+                if (myKey5.Key == ConsoleKey.Escape)
+                {
+                    Console.Clear();
+                    Menu mojeMenu = new Menu();
+                    mojeMenu.Run();
+                }
+
                 ConsoleKeyInfo myKey3 = Console.ReadKey();
                 Console.Clear();
                 if (myKey3.Key == ConsoleKey.RightArrow)
@@ -56,14 +65,14 @@ namespace SvenGame
                     hrac4.Pohybdoprava();
                 }
 
-                ConsoleKeyInfo myKey5 = Console.ReadKey();
-                Console.Clear();
-                if (myKey5.Key == ConsoleKey.Escape)
-                {
-                    Console.Clear();
-                    Menu mojeMenu = new Menu();
-                    mojeMenu.Run();
-                }
+                //ConsoleKeyInfo myKey5 = Console.ReadKey();
+                //Console.Clear();
+                //if (myKey5.Key == ConsoleKey.Escape)
+                //{
+                //    Console.Clear();
+                //    Menu mojeMenu = new Menu();
+                //    mojeMenu.Run();
+                //}
             }
         }
     }    
