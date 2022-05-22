@@ -38,9 +38,10 @@ namespace SvenGame
                 }
                 if (myKey3.Key == ConsoleKey.Escape)
                 {
-                    Console.Clear();
+                    Console.Clear();                    
                     Menu mojeMenu = new Menu();
                     mojeMenu.Run();
+                    return;
                 }
                 if (myKey3.Key == ConsoleKey.W)
                 {

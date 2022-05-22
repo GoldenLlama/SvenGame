@@ -78,6 +78,7 @@ namespace SvenGame
                     Console.Clear();
                     Menu mojeMenu = new Menu();
                     mojeMenu.Run();
+                    return;
                 }
 
                 //ConsoleKeyInfo Esc = Console.ReadKey(); asi to blbne kvůli tomuhle..
