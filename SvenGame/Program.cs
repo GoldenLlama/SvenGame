@@ -7,6 +7,7 @@ namespace SvenGame
         static void Main(string[] args)
         {
             //Nečum
+            //Tak co, jsem tam??
             Menu mojeMenu = new Menu();
             mojeMenu.Run();
         }
