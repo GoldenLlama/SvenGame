@@ -8,42 +8,6 @@ namespace SvenGame
 {
     public class Game
     {
-        //public void Play()
-        //{
-        //    Console.ForegroundColor = ConsoleColor.Green;
-        //    Console.Write("▄");
-
-
-        //    while(true)
-        //    {
-        //        ConsoleKeyInfo myKey = Console.ReadKey();
-        //        Console.Clear();
-        //        Console.Write("▄");
-        //        if (myKey.Key == ConsoleKey.DownArrow)
-        //        {                   
-        //            Console.SetCursorPosition(0, 1);
-        //            Console.ForegroundColor = ConsoleColor.Red;
-        //        }
-        //        if (myKey.Key == ConsoleKey.UpArrow)
-        //        {                    
-        //            Console.SetCursorPosition(0, 0);
-        //            Console.ForegroundColor = ConsoleColor.Green;
-        //        }
-        //        if (myKey.Key == ConsoleKey.LeftArrow)
-        //        {                   
-        //            Console.SetCursorPosition(0, 0);
-        //            Console.ForegroundColor = ConsoleColor.Green;
-        //        }
-        //        if (myKey.Key == ConsoleKey.RightArrow)
-        //        {                  
-        //            Console.SetCursorPosition(1, 0);
-        //            Console.ForegroundColor = ConsoleColor.Green;
-        //        }
-
-        //    }
-
-        //}
-
         public void Play() //ty ses tady snažil o hru pro dva? :D
         {
             Ctverec hrac1 = new Ctverec(4,4,ConsoleColor.Green);
@@ -80,18 +44,7 @@ namespace SvenGame
                     mojeMenu.Run();
                     return;
                 }
-
-                //ConsoleKeyInfo Esc = Console.ReadKey(); asi to blbne kvůli tomuhle..
-                //Console.Clear();
-                //if (Esc.Key == ConsoleKey.Escape)
-                //{
-                //    Console.Clear();
-                //    Menu mojeMenu = new Menu();
-                //    mojeMenu.Run();
-                //}
-
             }
-
         }
     }
 }
